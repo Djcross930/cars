@@ -24,3 +24,7 @@ Content-Type: application/json
 {
   "color": "White"
 }
+
+### DELETE CAR
+
+DELETE http://localhost:3000/cars/4
