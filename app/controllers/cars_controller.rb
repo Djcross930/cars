@@ -19,5 +19,14 @@ class CarsController < ApplicationController
     render json: car.as_json
   end
 
+  def update
+    car = Car.find_by(id: params[:id])
+    car.model = params[:model] || car.model
+    car.year = params[:year] || car.year
+    car.color = params[:color] || car.color
+    car.save
+    render json: car.as_json
+  end
+
 
 end

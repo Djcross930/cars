@@ -15,3 +15,12 @@ Content-Type: application/json
   "year": "2015",
   "color": "Silver"
 }
+
+### Cars update
+
+PATCH http://localhost:3000/cars/4
+Content-Type: application/json
+
+{
+  "color": "White"
+}
