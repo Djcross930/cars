@@ -1,1 +1,7 @@
+### Index for cars
 GET http://localhost:3000/cars
+
+### Show for car
+
+GET http://localhost:3000/cars/2
+
