@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   post "/cars" => "cars#create"
   patch "/cars/:id" => "cars#update"
   delete "/cars/:id" => "cars#destroy"
+
+  get "/races" => "races#index"
 end

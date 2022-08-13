@@ -28,3 +28,10 @@ Content-Type: application/json
 ### DELETE CAR
 
 DELETE http://localhost:3000/cars/4
+
+#### Index for races
+
+GET http://localhost:3000/races
+
+### Show race
+GET http://localhost:3000/races/1
