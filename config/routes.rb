@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   delete "/cars/:id" => "cars#destroy"
 
   get "/races" => "races#index"
+  get "races/:id" => "races#show"
 end

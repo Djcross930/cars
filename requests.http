@@ -33,5 +33,5 @@ DELETE http://localhost:3000/cars/4
 
 GET http://localhost:3000/races
 
-### Show race
+### Show race winner
 GET http://localhost:3000/races/1
