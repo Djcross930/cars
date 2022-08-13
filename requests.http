@@ -5,3 +5,13 @@ GET http://localhost:3000/cars
 
 GET http://localhost:3000/cars/2
 
+### Cars create
+
+POST http://localhost:3000/cars
+Content-Type: application/json
+
+{
+  "model": "F150",
+  "year": "2015",
+  "color": "Silver"
+}
